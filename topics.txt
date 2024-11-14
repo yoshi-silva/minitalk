@@ -1,0 +1,18 @@
+ write
+◦ ft_printf and any equivalent YOU coded
+◦ signal #include <signal.h>  signal(SIGINT, signal_handler); (signal interrupt= SIGINT)
+         ,we use this to handle specific signal received,during asyncronous events,such as ctr+c
+◦ sigemptyset 
+◦ sigaddset
+◦ sigaction
+◦ kill
+◦ getpid (process id) pid_t getpid(void);(note the weird return type) unique in system,and reusable,-1 for error or errno
+◦ malloc
+◦ free
+◦ pause
+◦ sleep
+◦ usleep
+◦ exit
+
+libft
+
